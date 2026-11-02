@@ -248,12 +248,8 @@ sequenceDiagram
 
 ```
 himyatra/
-├── .github/                      # Issue and Pull Request templates
-│   ├── ISSUE_TEMPLATE/
-│   │   ├── bug_report.md
-│   │   ├── feature_request.md
-│   │   └── task.md
-│   └── pull_request_template.md
+├── .github/                      # GitHub repository workflows and templates
+│   └── pull_request_template.md  # PR verification checklist
 ├── docs/                         # Authoritative engineering documentation
 │   ├── PRD.md                    # Authoritative Product Requirements Document
 │   ├── ARCHITECTURE.md           # System architecture and request flow

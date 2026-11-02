@@ -22,8 +22,8 @@
 - [x] Configure `.gitignore` for Python, virtual environments, SQLite binaries, and logs
 - [x] Configure `.editorconfig` for consistent indentation and line endings
 - [x] Configure `.gitattributes` for LF line normalization
-- [x] Create GitHub issue templates (bug report, feature request, task)
 - [x] Create GitHub pull request template
+- [x] Populate GitHub repository with labels, milestones, and issues
 - [ ] Create Python `requirements.txt` with tested dependencies (Phase 1)
 - [ ] Setup Flask application skeleton and directory layout (Issue #1)
 - [ ] Implement SQLite schema initialization (`schema.sql` and `database.py`) (Issue #2)
