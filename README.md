@@ -313,6 +313,26 @@ himyatra/
 
 ---
 
+## Project Execution Board & Live Issues
+
+HimYatra uses GitHub Issues and Milestones as an operational kanban board. Every feature and task is mapped to specific PRD requirements, prioritized, and linked below:
+
+| Milestone | Target Objective | Live GitHub Issues | Status |
+| :--- | :--- | :--- | :---: |
+| [**M0 — Foundation**](https://github.com/chilkotiKartik/himyatra/milestone/1) | Architecture, Flask factory, SQLite schema, design system | [#1](https://github.com/chilkotiKartik/himyatra/issues/1), [#2](https://github.com/chilkotiKartik/himyatra/issues/2), [#3](https://github.com/chilkotiKartik/himyatra/issues/3), [#4](https://github.com/chilkotiKartik/himyatra/issues/4) | `Ready` |
+| [**M1 — Authentication**](https://github.com/chilkotiKartik/himyatra/milestone/2) | Dual registration, login, admin seed, RBAC decorators | [#5](https://github.com/chilkotiKartik/himyatra/issues/5), [#6](https://github.com/chilkotiKartik/himyatra/issues/6), [#7](https://github.com/chilkotiKartik/himyatra/issues/7), [#8](https://github.com/chilkotiKartik/himyatra/issues/8), [#9](https://github.com/chilkotiKartik/himyatra/issues/9) | `Planned` |
+| [**M2 — Administrator**](https://github.com/chilkotiKartik/himyatra/milestone/3) | Live metrics dashboard, trek CRUD, staff vetting queue, accounts | [#10](https://github.com/chilkotiKartik/himyatra/issues/10), [#11](https://github.com/chilkotiKartik/himyatra/issues/11), [#12](https://github.com/chilkotiKartik/himyatra/issues/12), [#13](https://github.com/chilkotiKartik/himyatra/issues/13), [#14](https://github.com/chilkotiKartik/himyatra/issues/14) | `Planned` |
+| [**M3 — Trek Staff**](https://github.com/chilkotiKartik/himyatra/milestone/4) | Assigned expedition workspace, participant roster, capacity & progress | [#15](https://github.com/chilkotiKartik/himyatra/issues/15), [#16](https://github.com/chilkotiKartik/himyatra/issues/16), [#17](https://github.com/chilkotiKartik/himyatra/issues/17), [#18](https://github.com/chilkotiKartik/himyatra/issues/18) | `Planned` |
+| [**M4 — Trekker & Bookings**](https://github.com/chilkotiKartik/himyatra/milestone/5) | Discovery catalog, live availability, booking ledger, cancellations | [#19](https://github.com/chilkotiKartik/himyatra/issues/19), [#20](https://github.com/chilkotiKartik/himyatra/issues/20), [#21](https://github.com/chilkotiKartik/himyatra/issues/21), [#22](https://github.com/chilkotiKartik/himyatra/issues/22), [#23](https://github.com/chilkotiKartik/himyatra/issues/23) | `Planned` |
+| [**M5 — Reliability**](https://github.com/chilkotiKartik/himyatra/milestone/6) | Atomic write locking, test harness, demo dataset, zero-JS audit | [#24](https://github.com/chilkotiKartik/himyatra/issues/24), [#25](https://github.com/chilkotiKartik/himyatra/issues/25), [#26](https://github.com/chilkotiKartik/himyatra/issues/26), [#27](https://github.com/chilkotiKartik/himyatra/issues/27), [#28](https://github.com/chilkotiKartik/himyatra/issues/28) | `Planned` |
+
+🔗 **Quick Links:**
+* [View All 28 GitHub Issues](https://github.com/chilkotiKartik/himyatra/issues)
+* [View Milestones & Progress](https://github.com/chilkotiKartik/himyatra/milestones)
+* [View Backlog Specifications (Markdown)](docs/ISSUES_BACKLOG.md)
+
+---
+
 ## Development Roadmap & Milestones
 
 The development backlog is structured into 6 sequential milestones:
@@ -329,13 +349,6 @@ gantt
     M4 - Trekker Discovery & Bookings   :m4, after m3, 4d
     M5 - Reliability, Concurrency & Release :m5, after m4, 4d
 ```
-
-* **M0 — Foundation:** Project skeleton, Flask factory, SQLite connection, base templates ([Issues #1–#4](file:///c:/Users/chilk/Downloads/himyatra/himyatra/docs/ISSUES_BACKLOG.md#milestone-m0-foundation--project-infrastructure)).
-* **M1 — Authentication:** Registration, login, admin seeding, RBAC decorators, blacklist barrier ([Issues #5–#9](file:///c:/Users/chilk/Downloads/himyatra/himyatra/docs/ISSUES_BACKLOG.md#milestone-m1-identity-authentication--rbac)).
-* **M2 — Administrator:** Metrics dashboard, trek CRUD, staff vetting queue, accounts directory ([Issues #10–#14](file:///c:/Users/chilk/Downloads/himyatra/himyatra/docs/ISSUES_BACKLOG.md#milestone-m2-administrator-operations)).
-* **M3 — Trek Staff:** Assigned expedition workspace, participant roster, capacity adjust, status transitions ([Issues #15–#18](file:///c:/Users/chilk/Downloads/himyatra/himyatra/docs/ISSUES_BACKLOG.md#milestone-m3-trek-staff-expedition-management)).
-* **M4 — Trekker & Bookings:** Trek discovery, search/filtering, detail view, booking ledger, cancellations ([Issues #19–#23](file:///c:/Users/chilk/Downloads/himyatra/himyatra/docs/ISSUES_BACKLOG.md#milestone-m4-trekker-discovery--booking-ledger)).
-* **M5 — Reliability:** Atomic transactions, automated test suites, demo seeding, zero-JS audit ([Issues #24–#28](file:///c:/Users/chilk/Downloads/himyatra/himyatra/docs/ISSUES_BACKLOG.md#milestone-m5-reliability-concurrency--release)).
 
 ---
 
